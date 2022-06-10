@@ -14,18 +14,18 @@
 - open the URL in browser http://localhost:52280/greet
 - gRPCServer console to display below message
 
----->Received request from gRPCClient: world
+~---->Received request from gRPCClient: world
 
-<----Sending response from gRPCServer: Hello world
+<----Sending response from gRPCServer: Hello world~
 
-- gRPCClient running on browser display Hello World
+- gRPCClient running on browser display ~Hello World~
 
 ## Testcase-2
 - open the URL in browser http://localhost:52280/greet/VMWare
 - gRPCServer console to display below message
 
----->Received request from gRPCClient: VMWare
+~---->Received request from gRPCClient: VMWare
 
-<----Sending response from gRPCServer: Hello VMWare
+<----Sending response from gRPCServer: Hello VMWare~
 
-- gRPCClient running on browser display Hello VMWare
+- gRPCClient running on browser display ~Hello VMWare~
