@@ -1,0 +1,11 @@
+﻿applications:
+- name: gRPCServer
+  buildpacks:
+    - dicf_dotnet_core_buildpack_latest
+  instances: 1
+  stack: cflinuxfs3
+#  routes:
+#    - route: gRPCServer.drmsbc01.pcf.dell.com
+#      protocol: http2
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
