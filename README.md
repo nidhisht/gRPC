@@ -1,5 +1,5 @@
 # gRPC
-*NOTE*: This sample is tested only on windows platform
+**NOTE**: This sample is tested only on **Windows** platform
 
 # To run locally (Windows)
 - Open gRPC.sln in visual studio
