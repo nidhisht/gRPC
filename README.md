@@ -1,7 +1,5 @@
 # gRPC
-This repository has gRPC Server and gRPC Client.
-
-NOTE: This sample is tested only on windows machine
+*NOTE*: This sample is tested only on windows platform
 
 # To run locally (Windows)
 - Open gRPC.sln in visual studio
@@ -12,17 +10,22 @@ NOTE: This sample is tested only on windows machine
 
 # To test gRPCClient locally (Windows)
 
-##Testcase-1
+## Testcase-1
 - open the URL in browser http://localhost:52280/greet
-- gRPC server console to display below message
+- gRPCServer console to display below message
 
 ---->Received request from gRPCClient: world
+
 <----Sending response from gRPCServer: Hello world
 
+- gRPCClient running on browser display Hello World
 
-##Testcase-2
+## Testcase-2
 - open the URL in browser http://localhost:52280/greet/VMWare
+- gRPCServer console to display below message
+
 ---->Received request from gRPCClient: VMWare
+
 <----Sending response from gRPCServer: Hello VMWare
 
-
+- gRPCClient running on browser display Hello VMWare
