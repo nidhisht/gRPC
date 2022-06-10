@@ -3,12 +3,12 @@
 
 # To run locally (Windows)
 - Open gRPC.sln in visual studio
-- gRPC Solution Properties - Startup project - Select Multiple Startup Projects - Ensure that both gRPCServer and gRPCClient projects are selected
+- gRPC Solution Properties - Startup project - Select Multiple Startup Projects - Ensure that both gRPCServer and gRPCApiClient projects are selected
 - Press F5 on Visual Studio
 - gRPCServer opens up in console window
-- gRPCClient opens up in browser
+- gRPCApiClient opens up in browser
 
-# To test gRPCClient locally (Windows)
+# To test gRPCApiClient locally (Windows)
 
 ## Testcase-1
 - open the URL in browser http://localhost:52280/greet
@@ -18,7 +18,7 @@
 
 `<----Sending response from gRPCServer: Hello world`
 
-- gRPCClient running on browser display `Hello World`
+- gRPCApiClient running on browser display `Hello World`
 
 ## Testcase-2
 - open the URL in browser http://localhost:52280/greet/VMWare
@@ -28,4 +28,4 @@
 
 `<----Sending response from gRPCServer: Hello VMWare`
 
-- gRPCClient running on browser display `Hello VMWare`
+- gRPCApiClient running on browser display `Hello VMWare`
